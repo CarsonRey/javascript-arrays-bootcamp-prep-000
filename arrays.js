@@ -13,7 +13,7 @@ function addElementToBeginningOfArray() {
 
 function destructivelyAddElementToBeginningOfArray() {
  chocolateBars[5] = 5;
- return chocolateBars;
+chocolateBars;
 }
 
 function addElementToEndOfArray() {
