@@ -12,5 +12,7 @@ function addElementToBeginningOfArray() {
 }
 
 function destructivelyAddElementToBeginningOfArray() {
-  return chocolateBars
+  var chocolateBars = ["snickers","hundred grand", "kitcat", "skittles"];
+  chocolateBars["Skor bar"] = "Skor bar";
+  return chocolateBars;
 }
