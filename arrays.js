@@ -19,3 +19,4 @@ function destructivelyAddElementToBeginningOfArray() {
 function addElementToEndOfArray() {
   return chocolateBars.push("Skor bar");
 }
+
