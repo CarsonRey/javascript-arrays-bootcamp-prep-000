@@ -8,15 +8,15 @@ var ingredient6 = "garlic"
 var chocolateBars = ["snickers","hundred grand", "kitcat", "skittles"];
 
 function addElementToBeginningOfArray(array, element) {
-   return ["Skor bar", ...array];
+   return ["element", ...array];
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  chocolateBars.unshift("Skor bar");
-  return chocolateBars;
+  array.unshift(element);
+  return array;
 }
 
 function addElementToEndOfArray(array, element) {
-  return chocolateBars.push("Skor bar");
+  return array.push(element);
 }
 
