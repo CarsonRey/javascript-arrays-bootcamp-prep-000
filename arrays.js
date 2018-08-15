@@ -15,6 +15,7 @@ function addElementToBeginningOfArray() {
 function destructivelyAddElementToBeginningOfArray() {
   var chocolateBars = ["snickers","hundred grand", "kitcat", "skittles"];
   chocolateBars.unshift("Skor bar");
+  return chocolateBars;
 }
 
 function addElementToEndOfArray() {
