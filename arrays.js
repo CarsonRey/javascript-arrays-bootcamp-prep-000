@@ -12,7 +12,7 @@ function addElementToBeginningOfArray() {
 }
 
 function destructivelyAddElementToBeginningOfArray() {
- chocolateBars["Skor bar"];
+ chocolateBars["Skor bar"] = "Skor bar";
  return chocolateBars;
 }
 
