@@ -11,13 +11,12 @@ function addElementToBeginningOfArray(array, element) {
    return ["Skor bar", ...chocolateBars];
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  var chocolateBars = ["snickers","hundred grand", "kitcat", "skittles"];
+function destructivelyAddElementToBeginningOfArray(array, element) {
   chocolateBars.unshift("Skor bar");
   return chocolateBars;
 }
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(array, element) {
   return chocolateBars.push("Skor bar");
 }
 
